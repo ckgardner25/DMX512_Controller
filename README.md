@@ -1,9 +1,3 @@
 # DMX512_Controller
 
-Developing a custom DMX512 lighting controller using an STM32F411 microcontroller and a custom PCB designed in KiCad.
-
-Completed the power regulation system, including dedicated 5V and 3.3V rails using a buck converter architecture.
-
-Integrated support for seven analog fader inputs through the STM32's ADC peripherals for real-time channel control.
-
-Currently designing and implementing the RS-485 transceiver interface for DMX signal transmission and communication with lighting fixtures.
+Currently developing a custom DMX512 lighting controller built around an STM32F411 BlackPill microcontroller. Completed the full system schematic, including power distribution, analog input circuitry, and RS-485 transceiver integration for DMX communication. Entering the PCB design phase with a focus on signal integrity, component placement, and manufacturable hardware design. The project combines embedded firmware development, PCB design, power electronics, and DMX512 protocol implementation.
