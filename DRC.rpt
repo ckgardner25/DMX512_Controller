@@ -1,0 +1,17 @@
+** Drc report for DMX Controller.kicad_pcb **
+** Created on 2026-06-19T22:47:37-0400 **
+
+** Found 2 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(3.7205 in, 4.0354 in): Reference field of U1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(3.9028 in, 1.8725 in): Footprint text of U3 (*)
+    @(3.9028 in, 1.8725 in): Footprint text of U3 (*)
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

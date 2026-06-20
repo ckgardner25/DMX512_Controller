@@ -1,0 +1,29 @@
+Drill report for DMX Controller.kicad_pcb
+Created on 2026-06-19T22:46:54-0400
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'DMX Controller-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (12 holes)
+    T2  0.800mm  0.0315"  (2 holes)
+    T3  1.000mm  0.0394"  (43 holes)  (with 3 slots)
+    T4  1.200mm  0.0472"  (2 holes)
+    T5  1.524mm  0.0600"  (49 holes)
+    T6  1.600mm  0.0630"  (2 holes)
+
+    Total plated holes count 110
+
+
+Drill file 'DMX Controller-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.600mm  0.0630"  (2 holes)
+    T2  2.500mm  0.0984"  (5 holes)
+
+    Total unplated holes count 7
