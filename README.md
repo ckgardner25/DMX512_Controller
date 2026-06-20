@@ -1,5 +1,6 @@
 # DMX512_Controller
 
-Currently developing a custom DMX512 lighting controller built around an STM32F411 BlackPill microcontroller. Completed the full system schematic, including power distribution, analog input circuitry, and RS-485 transceiver integration for DMX communication. 
+Currently developing a custom DMX512 lighting controller built around an STM32F411 BlackPill microcontroller. Completed the full schematic capture, PCB layout, DRC, and manufacturing file generation, including power distribution, analog input circuitry, and RS-485 transceiver integration for DMX communication.
 
-Entering the PCB design phase with a focus on signal integrity, component placement, and manufacturable hardware design. The project combines embedded firmware development, PCB design, power electronics, and DMX512 protocol implementation.
+The design is now ready for fabrication, with prototype PCBs submitted for manufacturing. The project combines embedded firmware development, custom PCB design, power electronics, hardware verification, and DMX512 protocol implementation, providing experience from system architecture through production-ready hardware.
+
