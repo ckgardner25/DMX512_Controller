@@ -4,3 +4,7 @@ Currently developing a custom DMX512 lighting controller built around an STM32F4
 
 The design is now ready for fabrication, with prototype PCBs submitted for manufacturing. The project combines embedded firmware development, custom PCB design, power electronics, hardware verification, and DMX512 protocol implementation, providing experience from system architecture through production-ready hardware.
 
+## Ver 1.0
+- Prototype PCBs submitted for fabrication.
+- Developing FreeRTOS firmware for DMX512 communication, analog input processing, and system control.
+- Assembly, bring-up, and hardware validation planned following PCB arrival.
