@@ -17,4 +17,8 @@ Prototype PCBs have been submitted for fabrication. The project combines embedde
 ## Ver 1.0
 - Prototype PCBs submitted for fabrication.
 - Developing FreeRTOS firmware for DMX512 communication, analog input processing, and system control.
-- Assembly, bring-up, and hardware validation planned following PCB arrival.
+- Firmware in progress with FreeRTOS
+
+## Ver 1.1 (Planned)
+- Add 12 pushbutton switches for programmed options
+- Fix orientation errors of ver 1.0
