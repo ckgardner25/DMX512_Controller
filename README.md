@@ -12,7 +12,6 @@ The project combines embedded firmware development, custom PCB design, hardware 
 - Custom two-layer KiCad PCB
 - 3.3 V buck power supply
 - Oscilloscope-based hardware validation
-- Complete GitHub documentation
 
 ## Ver 1.0
 - Prototype PCBs submitted for fabrication.
@@ -21,4 +20,5 @@ The project combines embedded firmware development, custom PCB design, hardware 
 ## Ver 1.1 
 - Add 12 pushbutton switches for programmed options
 - Fix orientation errors of ver 1.0
+- Changed to four-layer PCB
 - Finishing remaining FreeRTOS tasks
