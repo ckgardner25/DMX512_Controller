@@ -22,3 +22,4 @@ The project combines embedded firmware development, custom PCB design, hardware 
 - Fix orientation errors of ver 1.0
 - Changed to four-layer PCB
 - Finishing remaining FreeRTOS tasks
+<img width="500" height="550" alt="Board" src="Fabricated_board/Unpopulated_Board.jpeg" />
