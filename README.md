@@ -13,14 +13,15 @@ The project combines embedded firmware development, custom PCB design, hardware 
 - 3.3 V buck power supply
 - Oscilloscope-based hardware validation
 
-## Ver 1.1 
+## Versions
+### Ver 1.1 
 - Add 12 pushbutton switches for programmed options
 - Fix orientation errors of ver 1.0
 - Changed to four-layer PCB
 - Finished FreeRTOS tasks
 <img width="400" height="450" alt="Board" src="Fabricated_board/Unpopulated_Board.jpeg" />
 
-## Ver 1.0
+### Ver 1.0
 - Prototype PCBs submitted for fabrication.
 - Developing FreeRTOS firmware for DMX512 communication, analog input processing, and system control.
 
