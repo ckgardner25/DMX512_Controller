@@ -59,7 +59,7 @@ The project combines embedded firmware development, custom PCB design, hardware 
 The DMX takes a 5V signal which drives both the RS-485 transceiver and the STM32 Microcontroller. The 5V is brought through a step-down chip that creates 3.3V to power the linear potentiometers that act as the faders which the microcontroller interprets as different signal values for lighting.
 
 ## Simulations
-The LM2596 Buck-Converter for simple 5V to 3.3V conversion.
+The LM2596 Buck-Converter for simple 5V to 3.3V conversion. NOTE: this is for version 2.0 and after.
 <br><p float="left">
 <img width="500" height="550" alt="Board" src="Simulations/Sim_graph.png" />
 <img width="500" height="550" alt="Board" src="Simulations/sim_schematic.png" />
