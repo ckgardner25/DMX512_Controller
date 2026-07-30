@@ -5,23 +5,52 @@ Custom DMX512 lighting controller built around an STM32F411 BlackPill microcontr
 The project combines embedded firmware development, custom PCB design, hardware validation, power electronics, and DMX512 protocol implementation, providing experience from system architecture through production-ready hardware.
 
 ## Specifications
-Microcontroller: STM32F411 Cortex-M4 <br>
-
-RTOS: FreeRTOS <br>
-
-Protocol: DMX512 over RS-485 <br>
-
-Inputs: 7 Analog Faders <br>
-
-ADC: 12-bit <br>
-
-Output: 512 DMX Channels <br>
-
-PCB: 4 Layers <br>
-
-Power: 5 V to 3.3 V Buck Converter <br>
-
-Validation: Oscilloscope + Functional Testing <br>
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Specification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Microcontroller</strong></td>
+      <td>STM32F411 Cortex-M4</td>
+    </tr>
+    <tr>
+      <td><strong>RTOS</strong></td>
+      <td>FreeRTOS</td>
+    </tr>
+    <tr>
+      <td><strong>Protocol</strong></td>
+      <td>DMX512 over RS-485</td>
+    </tr>
+    <tr>
+      <td><strong>Inputs</strong></td>
+      <td>7 Analog Faders</td>
+    </tr>
+    <tr>
+      <td><strong>ADC</strong></td>
+      <td>12-bit</td>
+    </tr>
+    <tr>
+      <td><strong>Output</strong></td>
+      <td>512 DMX Channels</td>
+    </tr>
+    <tr>
+      <td><strong>PCB</strong></td>
+      <td>4 Layers</td>
+    </tr>
+    <tr>
+      <td><strong>Power</strong></td>
+      <td>5 V to 3.3 V Buck Converter</td>
+    </tr>
+    <tr>
+      <td><strong>Validation</strong></td>
+      <td>Oscilloscope + Functional Testing</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Block Diagram
 <img width="500" height="550" alt="Board" src="Diagrams+Images/Block Diagram.png" />
