@@ -69,7 +69,7 @@ For ver 1.1 the step-down module to 3.3V failed however, after connecting a jump
 
 <img width="400" height="550" alt="Board" src="Fabricated_board/Fabricated.png" />
 
-Fully functional UART (Right Image) and RS-485 Transmission (Left Image).
+Fully functional UART (Right/Bottom Image) and RS-485 Transmission (Left/Top Image).
 
 <br><p float="left">
 <img width="500" height="550" alt="RS-485 signal" src="Fabricated_board/DMX_output.png" />
