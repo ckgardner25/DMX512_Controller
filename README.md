@@ -65,7 +65,16 @@ The DMX takes a 5V signal which drives both the RS-485 transceiver and the STM32
 </p>
 
 ## Measured Results
+For ver 1.1 the step-down module to 3.3V failed however, after connecting a jumper from the MCU step-down pin, 3.3V was achieved. 
 
+<img width="400" height="550" alt="Board" src="Fabricated_board/Fabricated.png" />
+
+Fully functional UART (Right Image) and RS-485 Transmission (Left Image).
+
+<br><p float="left">
+<img width="500" height="550" alt="RS-485 signal" src="Fabricated_board/DMX_output.png" />
+<img width="500" height="550" alt="UART" src="Fabricated_board/UART.png" />
+</p>
 
 ## Versions
 ### Ver 1.1 
