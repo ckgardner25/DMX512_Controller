@@ -4,6 +4,11 @@ Custom DMX512 lighting controller built around an STM32F411 BlackPill microcontr
 
 The project combines embedded firmware development, custom PCB design, hardware validation, power electronics, and DMX512 protocol implementation, providing experience from system architecture through production-ready hardware.
 
+## Design Methods
+This project aimed to build a real-world application that is able to be fabricated >$30 and uses a 5V power source which is used in venues.
+
+I chose to implement a built in power supply that is able to supply the linear potentiometers with 3.3V whilst major components like the RS-485 Transceiver and STM32 MCU. A total of 7 faders were added to the design each able to move a total of 60mm. Later versions I added buttons as well for preprogrammed options.
+
 ## Specifications
 <table>
   <thead>
@@ -57,6 +62,11 @@ The project combines embedded firmware development, custom PCB design, hardware 
 
 ## Control Strategy
 The DMX takes a 5V signal which drives both the RS-485 transceiver and the STM32 Microcontroller. The 5V is brought through a step-down chip that creates 3.3V to power the linear potentiometers that act as the faders which the microcontroller interprets as different signal values for lighting.
+
+## Analysis Depth
+Versions 1.0 and 1.1 were not simulated and rather relied purely on datasheets and mathematical modeling. This ended up causing major errors as the 3.3V buck converter only put out .3V during trials. 
+
+As such version 2.0 were designed around the simulation below as a updated buck converter that successfully outputted 3.4V after 1ms. This was modeled in PSpice.
 
 ## Simulations
 The LM2596 Buck-Converter for simple 5V to 3.3V conversion. NOTE: this is for version 2.0 and after.
